@@ -1,5 +1,5 @@
 export default function Home() {
-     return <div>
+     return <div style={{width:"80%", margin:"auto"}}>
           <h1>Welcome to my portfolio</h1>
           <div>
                <h2>Vision Statement:</h2>
