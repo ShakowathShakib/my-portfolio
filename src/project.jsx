@@ -1,4 +1,6 @@
 import projectImg01 from "./assets/projectImg.jpeg";
+import fruitsProject from "./assets/fruit.png";
+import wallet from "./assets/wallet.png";
 
 export default function Project() {
   return (
@@ -16,7 +18,7 @@ export default function Project() {
         <div className="project-details">
           <h2 className="project-name">Flower shop</h2>
           <p className="project-description">
-            I have done this project using html and css
+            I have done this project using html and css also. It is a normal flowe website design. You can many section of this.
           </p>
           <p className="project-languages">Languages: Html, CSS5</p>
           <a
@@ -31,13 +33,13 @@ export default function Project() {
 
       {/* project-02 */}
       <div className="project-card">
-        <img src={projectImg01} alt="sakib-walet" className="project-image" />
+        <img src={wallet} alt="sakib-walet" className="project-image" />
         <div className="project-details">
           <h2 className="project-name">Sakib-Wallet</h2>
           <p className="project-description">
             I have done this project using html and css and js. In this project
-            you can add your value and description and increase or decreased the
-            value.
+            you can increase or decreased the
+            value and add the description.
           </p>
           <p className="project-languages">Languages: Html, CSS5, Js</p>
           <a
@@ -52,12 +54,12 @@ export default function Project() {
 
       {/* project-03 */}
       <div className="project-card">
-        <img src={projectImg01} alt="flowr shop" className="project-image" />
+        <img src={fruitsProject} alt="flowr shop" className="project-image" />
         <div className="project-details">
           <h2 className="project-name">Fruit shop</h2>
           <p className="project-description">
             I have done this project using Html, CSS and tailwind CSS. It is a
-            project of Fruit Shop.
+            project of Fruit Shop. You can see a slider on home page.
           </p>
           <p className="project-languages">Languages: Html, CSS5</p>
           <a
