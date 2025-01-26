@@ -3,11 +3,11 @@ export default function Contact() {
      <div>
           <h2>Contact Us</h2>
           <form className="contact-form">
-          <label htmlFor="name">First Name</label>
-    <input type="text" id="name" name="name" placeholder="Enter your name" required/>
+          <label htmlFor="first-name">First Name</label>
+    <input type="text" id="first-name" name="first-name" placeholder="Enter your first name" required/>
     
-          <label htmlFor="name">Last Name</label>
-    <input type="text" id="name" name="name" placeholder="Enter your name" required/>
+          <label htmlFor="last-name">Last Name</label>
+    <input type="text" id="last-name" name="last-name" placeholder="Enter your last name" required/>
 
     <label htmlFor="email">Your Email</label>
     <input type="email" id="email" name="email" placeholder="Enter your email" required/>
