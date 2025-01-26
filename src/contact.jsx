@@ -1,6 +1,7 @@
 export default function Contact() {
      return (
      <div>
+      {/* contact form */}
           <h2>Contact Us</h2>
           <form className="contact-form">
           <label htmlFor="first-name">First Name</label>
